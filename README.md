@@ -47,15 +47,6 @@ Several of these share a research line — single-kernel fusion on GPU compute, 
 | [**safenpm**](https://github.com/abgnydn/safenpm) · [safenpm.dev](https://safenpm.dev) | Drop-in `npm install` that sandboxes postinstall scripts and catches typosquats before they run. |
 | [**nib**](https://github.com/abgnydn/nib) | Local-first grammar and writing assistant for macOS. Native overlay, on-device model, no account. |
 
-### Available for hire
-
-Two modes — pick whichever fits your problem:
-
-- **Senior full-stack consulting** — TypeScript / Next.js / Node / databases / SDK design / monorepo wrangling / production shipping. Default mode; what most clients actually need.
-- **WebGPU & browser-native ML** — WGSL by hand, kernel fusion, on-device LLM inference, custom compute pipelines, `wgpu-native` (Rust) for cross-platform GPU code without browser overhead. The niche.
-
-Neither side has been the bottleneck on any of the projects above.
-
 ### Reach
 
 - Email: **hi [at] barisgunaydin.com**
@@ -63,5 +54,3 @@ Neither side has been the bottleneck on any of the projects above.
 - HuggingFace: [@abgunaydin](https://huggingface.co/abgunaydin) — models, Spaces, and the [WebGPU compute benchmark dataset](https://huggingface.co/datasets/abgunaydin/webgpu-compute-benchmarks)
 - X: [@abgnydn_](https://x.com/abgnydn_)
 - Location: Chiang Mai, Thailand (UTC+7)
-
-<sub>Profile reflects what's currently shipped. Numbers move; the qualitative shape doesn't.</sub>
