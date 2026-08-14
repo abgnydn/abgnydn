@@ -12,6 +12,11 @@ It is not a general result, and the boundaries are the interesting part. JAX GPU
 
 Every artifact ships its measurement code, and the falsified experiments are committed next to the ones that worked.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abgnydn/abgnydn/main/assets/fusion-boundary-dark.svg">
+  <img alt="Measured speedup of single-dispatch fusion against each named baseline, on a log scale. Wins: 94x vs per-step PyTorch CUDA on a 1,500-step financial simulation, 40x for webgpu-dna's fused phase in isolation, 13.5x for the native ADAS pipeline over a multi-kernel baseline, 7.8x crowd-sourced against per-step across 380 runs and 8 GPU vendors, 7.2x over JAX/XLA lax.scan. Marginal: 1.48x for webgpu-dna end-to-end, 1.29x over JAX on Acrobot-v1 at 500 steps. Losses: 0.30x against a batched baseline in the same crowd-sourced runs, 0.146x against JAX on parallel Rastrigin." src="https://raw.githubusercontent.com/abgnydn/abgnydn/main/assets/fusion-boundary-light.svg" width="100%">
+</picture>
+
 ### Featured work
 
 | | |
