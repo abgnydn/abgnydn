@@ -32,7 +32,7 @@ Earlier and experimental — live, but each carries its own caveats in its READM
 [enter-the-painting](https://huggingface.co/spaces/abgunaydin/enter-the-painting) lifts any image into a 3D Gaussian-splat cloud, fully client-side ·
 [draw-instant](https://github.com/abgnydn/draw-instant) runs Stable Diffusion in the browser, with the all-our-kernels path still being extended to the U-Net ·
 [fused-lora](https://fused-lora.pages.dev) fine-tunes BitNet b1.58 in a tab and emits ~4 MB `.flora` adapters ·
-[wgpu-adas-bench](https://github.com/abgnydn/wgpu-adas-bench) fuses an 11-stage ADAS pipeline into one `wgpu-native` dispatch ·
+[wgpu-adas-bench](https://github.com/abgnydn/wgpu-adas-bench) fuses an ADAS sensor-fusion pipeline into one `wgpu-native` dispatch (archived) ·
 [safenpm](https://safenpm.dev) scans `npm install` for typosquats and risky postinstall scripts, pre-release ·
 [dimples](https://dimples.pages.dev) is a golf game where you are the ball
 
